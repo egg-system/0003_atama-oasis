@@ -1,0 +1,75 @@
+/*
+ Theme Name:   arcade-basic-child
+ Theme URI:    http://atama-oasis.com/
+ Description:  atama oasis
+ Author:       hikarut
+ Author URI:   https://eggsystem.co.jp/
+ Template:     arcade-basic
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         arcade-basic
+ Text Domain:  arcade-basic-child
+*/
+
+/* 投稿ページ装飾 */
+h1.blog_deco {font-weight:bold!important;}
+.blog_deco h2 {background-color:#deb887; padding:10px 0 10px 15px; border-radius:5px;}
+.blog_deco .single .entry-meta { border-bottom:solid 3px #666!important; padding-bottom:20px!important;}
+.topics { border:solid 1px #aaa;}
+.topics p { text-align: center;}
+.topics ul { list-style-type: none; list-style: none; padding-right:40px;}
+.topics ul li { text-align: left; border-top: 1px dotted #ddd;}
+
+.col-md-8 { width: 100%;}
+.basic h4 {font-family:Open Sans, sans-serif !important;}
+a:hover {filter:alpha(opacity=80); opacity:0.8;}
+p.sub-copy {color:#ffffff; font-size:28px;}
+#site-description {font-size:24px;}
+#site-description.margin-top {margin-top:60px;}
+
+/* TOPページ_ニュース */
+#news {
+  max-width: 850px;
+  margin: 60px auto;
+  padding: 0 15px;
+  margin-bottom:10px;
+}
+#news p.tgNewsList {border-bottom: solid 1px #999; padding-bottom:5px;}
+#news p.tgNewsList span {margin-right: 20px;}
+#news h2{text-align:center;font-size:30px; font-weight:600; margin-bottom:20px;}
+
+@media (max-width: 600px) {
+  .no-fittext #site-title a {
+    font-size: 35px !important;
+  }
+p.sub-copy {font-size:16px;}
+#site-description {font-size:14px;}
+
+/* TOPページ_ニュース */
+#news {margin:0 auto;}
+#news p.tgNewsList {font-size:0.8em;}
+#news p.tgNewsList span {font-size:0.8em;}
+}
+
+
+@media (max-width: 780px) {
+	.sb_instagram_header {padding:0 !important;}
+	#sbi_images {padding:20px !important;}
+	#pg-5-3> .panel-row-style {padding:0 !important;}
+	.panel-row-style{
+		-webkit-flex-direction:row !important; 
+		-ms-flex-direction:row !important; 
+		flex-direction:row !important;
+	}
+	.panel-row-style{padding:0 !important;}
+	.panel-grid-cell{padding:5px !important;}
+	#sb_instagram #sbi_images .sbi_item {padding:5px !important;}
+    .basic h4 {font-family:Open Sans, sans-serif !important;}
+	
+	/* プロフィール写真のエリアを調整 */
+	div#pgc-5-0-0{
+		margin-top: -40px;
+		margin-bottom:-90px;
+	}
+}
